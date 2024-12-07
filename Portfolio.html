@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="headerItem"><a href="#AboutMe">About me</a></li>
+            <li class="headerItem"><a href="#projects">Projects</a></li>
+            <li class="headerItem"><a href="#Socials">Socials</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="dividers">
+            <div class="objects">
+                <div class="objectItem" id="objectItem1"></div>
+                <div class="greetings">Welcome!</div>
+                <div class="objectItem" id="objectItem2"></div>
+            </div>
+        </section>
+
+        <div class="divStart"><h1>About Me</h1></div>
+        <section class="dividers" id="AboutMe">
+            <div class="aboutMePic">
+                <img src="wei.jpg" alt="Profile Picture">
+            </div>
+            <div class="aboutMeText">
+                <p>Hello! My name is Wei Manrick S. Belano, often going by the online moniker "Avarice"!</p>
+                <p>I am a junior programmer with a solid foundation in software development and a passion for crafting efficient, user-centric solutions. Currently pursuing a degree in programming, I have hands-on experience with languages such as Python, Java, and PHP, alongside developing skills in both front-end and back-end technologies.</p>
+                <p>I pride myself on being quick to learn and adaptable to new challenges, with a proven ability to grasp complex concepts and apply them effectively. My academic and personal projects include designing systems like POS applications and creating scalable, functional software to address real-world challenges. I am committed to producing clean, maintainable code and continuously improving my technical and problem-solving abilities.</p>
+                <p>With a focus on collaboration and a proactive approach to growth, I aim to contribute to innovative teams that prioritize quality, efficiency, and forward-thinking development. I am eager to apply my skills, learn from experienced professionals, and make meaningful contributions to the software development field.</p>
+                <p>Student number: 20203172</p>
+            </div>
+        </section>
+
+        <div class="divStart"><h1>My Past Projects</h1><p>The image are interactive, click them</p></div>
+        
+        <section class="dividers" id="projects">
+            <div class="item">
+                <img src="cafeIndex.png" alt="Cafe System Screenshot">
+                <p>A smart cafe system with a rewards program based on customer transactions.</p>
+            </div>
+            <div class="item">
+                <img src="kusanagiFront.png" alt="Kusanagi Project Front-end">
+                <p>A responsive front-end application for managing a fictional data system. (Kusanagi self-project)</p>
+            </div>
+            <div class="item">
+                <img src="mikuWebsite.png" alt="Website Placeholder">
+                <p>A demo for a creative website project featuring customization options.</p>
+            </div>
+            <div class="item">
+                <img src="cafeMenu.png" alt="Cafe Menu Screenshot">
+                <p>An interactive cafe menu UI for showcasing items and prices dynamically.</p>
+            </div>
+            <div class="item">
+                <img src="kusanagiBack.png" alt="Kusanagi Back-end">
+                <p>The back-end implementation of the Kusanagi system with database integration.</p>
+            </div>
+            <div class="item">
+                <img src="csharp.png" alt="C# Project Screenshot">
+                <p>A C# project that demonstrates system operations.</p>
+            </div>
+        </section>
+
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+        
+
+        <div class="divStart"><h1>Socials</h1></div>
+        <section class="dividers" id="Socials">
+            <button id="facebook" onclick="window.open('https://www.facebook.com/godofincels', '_blank')">
+              <img src="facebook.png" alt="Facebook">
+              <span>Facebook</span>
+            </button>
+            <button id="github" onclick="window.open('https://github.com/dr-kidori', '_blank')">
+              <img src="github.png" alt="GitHub">
+              <span>GitHub</span>
+            </button>
+            <button id="email" onclick="window.open('mailto:weimanrick420@gmail.com', '_blank')">
+              <img src="Gmail_icon_(2020).svg.png" alt="Gmail">
+              <span>Personal Email</span>
+            </button>
+            <button id="professional-email" onclick="window.open('mailto:wmsbelano@pcu.edu.ph', '_blank')">
+              <img src="Gmail_icon_(2020).svg.png" alt="Gmail">
+              <span>School Email</span>
+            </button>
+
+            <div class="objects">
+                <div class="objectItem" id="objectItem1"></div>
+                <div class="objectItem" id="objectItem2"></div>
+                <div class="objectItem" id="objectItem3"></div>
+            </div>
+          </section>
+          
+          
+
+    </main>
+    <footer>
+        <p>© 2024 Avarice. All rights reserved.</p>
+        <button id="scrollUpBtn">Click me!</button>
+    </footer>
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
